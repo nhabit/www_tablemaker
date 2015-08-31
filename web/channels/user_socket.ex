@@ -3,7 +3,7 @@ defmodule WwwTablemaker.UserSocket do
 
   ## Channels
   # channel "rooms:*", WwwTablemaker.RoomChannel
-
+  channel "maketable:*", WwwTablemaker.TablemakerChannel
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
   # transport :longpoll, Phoenix.Transports.LongPoll
