@@ -16,7 +16,7 @@
                 </div>
                 <div>
                     <label >Table Size</label>
-                    <input id ="count" type="text"  name="count" size="3"/>
+                    <input id ="count" type="text"  name="count" size="3" value=<%= @count %> />
                 </div>
                 <div > 
                     <button id="run" type="button" class="btn btn-default">Run</button>
